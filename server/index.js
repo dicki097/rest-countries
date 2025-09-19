@@ -214,7 +214,7 @@ const route1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProper
   default: home,
   meta
 }, Symbol.toStringTag, { value: "Module" }));
-const serverManifest = { "entry": { "module": "/rest-countries/assets/entry.client-5NZ9AFj8.js", "imports": ["/rest-countries/assets/chunk-B7RQU5TL-DkG0e22m.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": true, "module": "/rest-countries/assets/root-BTU4SxuT.js", "imports": ["/rest-countries/assets/chunk-B7RQU5TL-DkG0e22m.js"], "css": ["/rest-countries/assets/root-L-Bv-Fnr.css"], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/home": { "id": "routes/home", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": false, "module": "/rest-countries/assets/home-BB1ZnB0U.js", "imports": ["/rest-countries/assets/chunk-B7RQU5TL-DkG0e22m.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 } }, "url": "/rest-countries/assets/manifest-c8b54621.js", "version": "c8b54621", "sri": void 0 };
+const serverManifest = { "entry": { "module": "/rest-countriesassets/entry.client-5NZ9AFj8.js", "imports": ["/rest-countriesassets/chunk-B7RQU5TL-DkG0e22m.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": true, "module": "/rest-countriesassets/root-BTU4SxuT.js", "imports": ["/rest-countriesassets/chunk-B7RQU5TL-DkG0e22m.js"], "css": ["/rest-countriesassets/root-L-Bv-Fnr.css"], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/home": { "id": "routes/home", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": false, "module": "/rest-countriesassets/home-BB1ZnB0U.js", "imports": ["/rest-countriesassets/chunk-B7RQU5TL-DkG0e22m.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 } }, "url": "/rest-countriesassets/manifest-f1fbc9e7.js", "version": "f1fbc9e7", "sri": void 0 };
 const assetsBuildDirectory = "build\\client";
 const basename = "/";
 const future = { "v8_middleware": false, "unstable_optimizeDeps": false, "unstable_splitRouteModules": false, "unstable_subResourceIntegrity": false, "unstable_viteEnvironmentApi": false };
@@ -222,7 +222,7 @@ const ssr = true;
 const isSpaMode = false;
 const prerender = [];
 const routeDiscovery = { "mode": "lazy", "manifestPath": "/__manifest" };
-const publicPath = "/rest-countries/";
+const publicPath = "/rest-countries";
 const entry = { module: entryServer };
 const routes = {
   "root": {
