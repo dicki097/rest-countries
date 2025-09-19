@@ -2,7 +2,7 @@
   "name": "rest-countries",
   "private": true,
   "type": "module",
-  "homepage": "https://dicki097.github.io/rest-countries",
+  "homepage": "https://dicki097.github.io/rest-countries/",
   "scripts": {
     "build": "react-router build",
     "dev": "react-router dev",
