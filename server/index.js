@@ -111,8 +111,8 @@ const route0 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProper
   default: root,
   links
 }, Symbol.toStringTag, { value: "Module" }));
-const logoDark = "/rest-countries/assets/logo-dark-BkaVeYbq.svg";
-const logoLight = "/rest-countries/assets/logo-light-DjWqHNIw.svg";
+const logoDark = "/assets/logo-dark-BkaVeYbq.svg";
+const logoLight = "/assets/logo-light-DjWqHNIw.svg";
 function Welcome() {
   return /* @__PURE__ */ jsx("main", { className: "flex items-center justify-center pt-16 pb-4", children: /* @__PURE__ */ jsxs("div", { className: "flex-1 flex flex-col items-center gap-16 min-h-0", children: [
     /* @__PURE__ */ jsx("header", { className: "flex flex-col items-center gap-9", children: /* @__PURE__ */ jsxs("div", { className: "w-[500px] max-w-[100vw] p-4", children: [
@@ -203,7 +203,7 @@ function meta({}) {
     title: "REST Countries - A React Router App"
   }, {
     name: "description",
-    content: "REST Countries API with color theme switcher"
+    content: "REST Countries API with color theme switcher!"
   }];
 }
 const home = UNSAFE_withComponentProps(function Home() {
@@ -214,7 +214,7 @@ const route1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProper
   default: home,
   meta
 }, Symbol.toStringTag, { value: "Module" }));
-const serverManifest = { "entry": { "module": "/rest-countriesassets/entry.client-5NZ9AFj8.js", "imports": ["/rest-countriesassets/chunk-B7RQU5TL-DkG0e22m.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": true, "module": "/rest-countriesassets/root-BTU4SxuT.js", "imports": ["/rest-countriesassets/chunk-B7RQU5TL-DkG0e22m.js"], "css": ["/rest-countriesassets/root-L-Bv-Fnr.css"], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/home": { "id": "routes/home", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": false, "module": "/rest-countriesassets/home-DipgmPM4.js", "imports": ["/rest-countriesassets/chunk-B7RQU5TL-DkG0e22m.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 } }, "url": "/rest-countriesassets/manifest-434a83ce.js", "version": "434a83ce", "sri": void 0 };
+const serverManifest = { "entry": { "module": "/assets/entry.client-5NZ9AFj8.js", "imports": ["/assets/chunk-B7RQU5TL-DkG0e22m.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": true, "module": "/assets/root-BTU4SxuT.js", "imports": ["/assets/chunk-B7RQU5TL-DkG0e22m.js"], "css": ["/assets/root-L-Bv-Fnr.css"], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/home": { "id": "routes/home", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": false, "module": "/assets/home-BoXwzk6i.js", "imports": ["/assets/chunk-B7RQU5TL-DkG0e22m.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 } }, "url": "/assets/manifest-5f320d12.js", "version": "5f320d12", "sri": void 0 };
 const assetsBuildDirectory = "build\\client";
 const basename = "/";
 const future = { "v8_middleware": false, "unstable_optimizeDeps": false, "unstable_splitRouteModules": false, "unstable_subResourceIntegrity": false, "unstable_viteEnvironmentApi": false };
@@ -222,7 +222,7 @@ const ssr = true;
 const isSpaMode = false;
 const prerender = [];
 const routeDiscovery = { "mode": "lazy", "manifestPath": "/__manifest" };
-const publicPath = "/rest-countries";
+const publicPath = "/";
 const entry = { module: entryServer };
 const routes = {
   "root": {
