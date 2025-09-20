@@ -4,7 +4,7 @@ import { Welcome } from "../welcome/welcome";
 export function meta({}: Route.MetaArgs) {
   return [
     { title: "REST Countries - A React Router App" },
-    { name: "description", content: "REST Countries API with color theme switcher" },
+    { name: "description", content: "REST Countries API with color theme switcher!" },
   ];
 }
 
